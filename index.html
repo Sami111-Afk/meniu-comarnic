@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meniu Catering - Bunătățile Casei</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="language-switcher">
+        <button id="btn-ro" onclick="setLanguage('ro')" class="active">RO 🇷🇴</button>
+        <button id="btn-en" onclick="setLanguage('en')">EN 🇬🇧</button>
+    </div>
+
+    <header class="main-header">
+        <div class="header-content">
+            <h1>MENIU / MENU</h1>
+            <p>Preparate Bio & Tradiționale</p>
+            <a href="tel:+40767233077" class="call-btn">
+                <span class="icon">📞</span> Comandă: (+40) 767.233.077
+            </a>
+        </div>
+    </header>
+
+    <nav id="dynamic-nav" class="sticky-nav"></nav>
+
+    <main id="menu-container"></main>
+
+    <footer class="main-footer">
+        <h3>ATENȚIE! ULTIMA COMANDA LA 19:30 / PLEASE CONSIDER! LAST ORDER 19:30</h3>
+        <div class="rules-container">
+            <div class="rule">
+                <span class="time">07:30-09:30</span>
+                <p>Comanda pentru mic dejun<br><em>Order for breakfast</em></p>
+            </div>
+            <div class="rule">
+                <span class="time">11:30-14:00</span>
+                <p>Comanda pentru prânz<br><em>Order for lunch</em></p>
+            </div>
+            <div class="rule">
+                <span class="time">17:00-19:00</span>
+                <p>Comanda pentru cină<br><em>Dinner orders</em></p>
+            </div>
+        </div>
+        <p class="contact-footer">Contact: <strong>(+40) 767.233.077</strong></p>
+    </footer>
+
+    <!-- Modal Cos -->
+    <div id="cart-modal" style="display:none;" onclick="closeCartModal(event)">
+        <div class="cart-modal-box">
+            <h2 id="cart-modal-title">Comanda ta</h2>
+            <div id="cart-modal-items"></div>
+            <div class="cart-modal-total">
+                Total: <strong id="cart-modal-total-val"></strong>
+            </div>
+            <div class="cart-modal-actions">
+                <button onclick="closeCartModal()" id="cart-modal-back">← Înapoi</button>
+                <button onclick="confirmOrder()" id="cart-modal-confirm">Confirmă pe WhatsApp 💬</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="cart-summary" class="cart-floating" style="display: none;">
+        <div class="cart-info">
+            <span id="cart-count">0</span> <span id="cart-prod-text">produse</span> | Total: <span id="cart-total">0 lei</span>
+        </div>
+        <button onclick="sendWhatsApp()" class="order-whatsapp-btn" id="order-btn-text">
+            Comandă 💬
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
