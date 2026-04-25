@@ -177,7 +177,16 @@ const menuData = [
     {
         id: "desert", category: "DESERT / DESSERT",
         items: [
-            { ro: "PAPANAȘI CU DULCEAȚĂ SAU FINETI ȘI SMÂNTÂNĂ", en: "Sweet cheese donuts with jam or Fineti and sour cream", w: "200g", p: "27 lei", img: "img/papanasi.jpg" },
+            { 
+                ro: "PAPANAȘI CU SMÂNTÂNĂ", 
+                en: "Sweet cheese donuts with sour cream", 
+                w: "200g", 
+                img: "img/papanasi.jpg", 
+                sizes: [ 
+                    {s: "CU DULCEAȚĂ / With Jam", p: "27 lei"}, 
+                    {s: "CU FINETTI / With Finetti", p: "27 lei"} 
+                ]
+            },
             { ro: "CLĂTITE", en: "Pancakes", w: "150g", p: "24 lei", img: "img/clatite.jpg" },
             { ro: "ÎNGHEȚATĂ ASORTATĂ", en: "Assorted ice cream", w: "200g", p: "29 lei", img: "img/inghetata.jpg" }
         ]
