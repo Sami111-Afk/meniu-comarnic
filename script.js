@@ -369,6 +369,23 @@ function closeCartModal(event) {
     document.getElementById('cart-modal').style.display = 'none';
 }
 
+let selectedPaymentMethod = 'cash';
+
+function selectPayment(method) {
+    selectedPaymentMethod = method;
+    const options = document.querySelectorAll('.payment-option');
+    options.forEach(opt => {
+        const radio = opt.querySelector('input');
+        if (radio.value === method) {
+            opt.classList.add('active');
+            radio.checked = true;
+        } else {
+            opt.classList.remove('active');
+            radio.checked = false;
+        }
+    });
+}
+
 function confirmOrder() {
     let message = currentLang === 'ro' ? "Bună ziua! Aș dori să comand:\n\n" : "Hello! I would like to order:\n\n";
     let total = 0;
@@ -383,7 +400,11 @@ function confirmOrder() {
         total += item.qty * item.price;
     }
 
+    const paymentText = selectedPaymentMethod === 'cash' ? (currentLang === 'ro' ? "Cash 💵" : "Cash 💵") : (currentLang === 'ro' ? "Card 💳" : "Card 💳");
+    
     message += `\nTotal: ${total} lei`;
+    message += `\nMetodă de plată: ${paymentText}`;
+    
     document.getElementById('cart-modal').style.display = 'none';
     window.open(`https://wa.me/40767233077?text=${encodeURIComponent(message)}`, '_blank');
 }
