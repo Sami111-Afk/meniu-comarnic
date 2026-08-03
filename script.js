@@ -84,18 +84,18 @@ const menuData = [
     {
         id: "pizza", category: "PIZZA / PIZZA",
         items: [
-            { ro: "PIZZA MARGHERITA", d_ro: "Cașcaval, mozzarella, sos roșii", d_en: "Cheese, mozzarella, tomato sauce", img: "img/pizza_margherita.jpg", sizes: [ {s:"MEDIE/Medium 400g", p:"37 lei"}, {s:"MARE/Large 800g", p:"74 lei"} ]},
-            { ro: "PIZZA CASEI", en: "House Pizza", d_ro: "Mozzarella, cașcaval, sos roșii, bacon, piept pui, ciuperci, măsline", d_en: "Mozzarella, cheese, tomato sauce, bacon, chicken breast, mushrooms, olives", img: "img/pizza_casei.jpg", sizes: [ {s:"MEDIE/Medium 450g", p:"37 lei"}, {s:"MARE/Large 900g", p:"74 lei"} ]},
-            { ro: "PIZZA PROSCIUTTO E FUNGHI", d_ro: "Cașcaval, mozzarella, sos roșii, șuncă presată, ciuperci", d_en: "Cheese, mozzarella, tomato sauce, pressed ham, mushrooms", img: "img/pizza_prosciutto_funghi.jpg", sizes: [ {s:"MEDIE/Medium 420g", p:"37 lei"}, {s:"MARE/Large 840g", p:"74 lei"} ]},
-            { ro: "PIZZA PROSCIUTTO COTTO", d_ro: "Cașcaval, mozzarella, sos roșii, șunca presată", d_en: "Cheese, mozzarella, tomato sauce, pressed ham", img: "img/pizza_prosciutto_cotto.jpg", sizes: [ {s:"MEDIE/Medium 420g", p:"37 lei"}, {s:"MARE/Large 840g", p:"74 lei"} ]},
-            { ro: "PIZZA DIAVALO", d_ro: "Cașcaval, mozzarella, sos roșii, piept pui, brânză telemea, ardei iute, salam picant", d_en: "Cheese, mozzarella, tomato sauce, chicken breast, telemea cheese, hot peppers, spicy salami", img: "img/pizza_diavalo.jpg", sizes: [ {s:"MEDIE/Medium 450g", p:"37 lei"}, {s:"MARE/Large 900g", p:"74 lei"} ]},
-            { ro: "PIZZA SALAMI PICANTĂ", en: "Spicy salami pizza", d_ro: "Cașcaval, mozzarella, sos roșii, salam chorizo, ardei iute", d_en: "Cheese, mozzarella, tomato sauce, chorizo salami, hot peppers", img: "img/pizza_salami.jpg", sizes: [ {s:"MEDIE/Medium 420g", p:"37 lei"}, {s:"MARE/Large 840g", p:"74 lei"} ]},
-            { ro: "PIZZA CALZONE", d_ro: "Cașcaval, mozzarella, sos roși, șuncă, ciuperci", d_en: "Cheese, mozzarella, tomato sauce, ham, mushrooms", img: "img/pizza_calzone.jpg", sizes: [ {s:"MEDIE/Medium 400g", p:"37 lei"}, {s:"MARE/Large 800g", p:"74 lei"} ]},
-            { ro: "PIZZA CAPRICIOSA", d_ro: "Cașcaval, mozzarella, sos rosii, suncă presată, ciuperci, ardei copt, măsline", d_en: "Cheese, mozzarella, tomato sauce, pressed ham, mushrooms, baked peppers, olives", img: "img/pizza_capriciosa.jpg", sizes: [ {s:"MEDIE/Medium 450g", p:"37 lei"}, {s:"MARE/Large 900g", p:"74 lei"} ]},
-            { ro: "PIZZA VEGETARIANĂ", en: "Vegetarian Pizza", d_ro: "Cașcaval, mozzarella, sos roșii, ciuperci, porumb, măsline, ardei gras. (DE POST/FAST fără cașcaval și mozzarella)", d_en: "Cheese, mozzarella, tomato sauce, mushrooms, corn, olives, bell pepper. (without cheese and mozzarella)", img: "img/pizza_vegetariana.jpg", sizes: [ {s:"MEDIE/Medium 450g", p:"37 lei"}, {s:"MARE/Large 900g", p:"74 lei"} ]},
-            { ro: "PIZZA QUATTRO FORMAGGI", d_ro: "Cremă Gran cucina, gorgonzola, mozzarella, cașcaval, parmezan", d_en: "Gran cucina, gorgonzola, mozzarella, cheese, parmesan", img: "img/pizza_quattro_formaggi.jpg", sizes: [ {s:"MEDIE/Medium 420g", p:"37 lei"}, {s:"MARE/Large 840g", p:"74 lei"} ]},
-            { ro: "PIZZA AL TONO", d_ro: "Cașcaval, mozzarella, sos roșii, ton, ceapă, măsline", d_en: "Cheese, mozzarella, tomato sauce, tuna, onion, olives", img: "img/pizza_al_tono.jpg", sizes: [ {s:"MEDIE/Medium 420g", p:"37 lei"}, {s:"MARE/Large 840g", p:"74 lei"} ]},
-            { ro: "PIZZA QUATTRO STAGIONI", d_ro: "Cașcaval, mozzarella, șuncă presată, salam, ciuperci, ardei kapia", d_en: "Cheese, mozzarella, pressed ham, salami, mushrooms, capsicum pepper", img: "img/pizza_quattro_stagioni.jpg", sizes: [ {s:"MEDIE/Medium 450g", p:"37 lei"}, {s:"MARE/Large 900g", p:"74 lei"} ]}
+            { ro: "PIZZA MARGHERITA", d_ro: "Cașcaval, mozzarella, sos roșii", d_en: "Cheese, mozzarella, tomato sauce", img: "img/pizza_margherita.jpg", sizes: [ {s:"MEDIE/Medium 400g", p:"37 lei"} ]},
+            { ro: "PIZZA CASEI", en: "House Pizza", d_ro: "Mozzarella, cașcaval, sos roșii, bacon, piept pui, ciuperci, măsline", d_en: "Mozzarella, cheese, tomato sauce, bacon, chicken breast, mushrooms, olives", img: "img/pizza_casei.jpg", sizes: [ {s:"MEDIE/Medium 450g", p:"37 lei"} ]},
+            { ro: "PIZZA PROSCIUTTO E FUNGHI", d_ro: "Cașcaval, mozzarella, sos roșii, șuncă presată, ciuperci", d_en: "Cheese, mozzarella, tomato sauce, pressed ham, mushrooms", img: "img/pizza_prosciutto_funghi.jpg", sizes: [ {s:"MEDIE/Medium 420g", p:"37 lei"} ]},
+            { ro: "PIZZA PROSCIUTTO COTTO", d_ro: "Cașcaval, mozzarella, sos roșii, șunca presată", d_en: "Cheese, mozzarella, tomato sauce, pressed ham", img: "img/pizza_prosciutto_cotto.jpg", sizes: [ {s:"MEDIE/Medium 420g", p:"37 lei"} ]},
+            { ro: "PIZZA DIAVALO", d_ro: "Cașcaval, mozzarella, sos roșii, piept pui, brânză telemea, ardei iute, salam picant", d_en: "Cheese, mozzarella, tomato sauce, chicken breast, telemea cheese, hot peppers, spicy salami", img: "img/pizza_diavalo.jpg", sizes: [ {s:"MEDIE/Medium 450g", p:"37 lei"} ]},
+            { ro: "PIZZA SALAMI PICANTĂ", en: "Spicy salami pizza", d_ro: "Cașcaval, mozzarella, sos roșii, salam chorizo, ardei iute", d_en: "Cheese, mozzarella, tomato sauce, chorizo salami, hot peppers", img: "img/pizza_salami.jpg", sizes: [ {s:"MEDIE/Medium 420g", p:"37 lei"} ]},
+            { ro: "PIZZA CALZONE", d_ro: "Cașcaval, mozzarella, sos roși, șuncă, ciuperci", d_en: "Cheese, mozzarella, tomato sauce, ham, mushrooms", img: "img/pizza_calzone.jpg", sizes: [ {s:"MEDIE/Medium 400g", p:"37 lei"} ]},
+            { ro: "PIZZA CAPRICIOSA", d_ro: "Cașcaval, mozzarella, sos rosii, suncă presată, ciuperci, ardei copt, măsline", d_en: "Cheese, mozzarella, tomato sauce, pressed ham, mushrooms, baked peppers, olives", img: "img/pizza_capriciosa.jpg", sizes: [ {s:"MEDIE/Medium 450g", p:"37 lei"} ]},
+            { ro: "PIZZA VEGETARIANĂ", en: "Vegetarian Pizza", d_ro: "Cașcaval, mozzarella, sos roșii, ciuperci, porumb, măsline, ardei gras. (DE POST/FAST fără cașcaval și mozzarella)", d_en: "Cheese, mozzarella, tomato sauce, mushrooms, corn, olives, bell pepper. (without cheese and mozzarella)", img: "img/pizza_vegetariana.jpg", sizes: [ {s:"MEDIE/Medium 450g", p:"37 lei"} ]},
+            { ro: "PIZZA QUATTRO FORMAGGI", d_ro: "Cremă Gran cucina, gorgonzola, mozzarella, cașcaval, parmezan", d_en: "Gran cucina, gorgonzola, mozzarella, cheese, parmesan", img: "img/pizza_quattro_formaggi.jpg", sizes: [ {s:"MEDIE/Medium 420g", p:"37 lei"} ]},
+            { ro: "PIZZA AL TONO", d_ro: "Cașcaval, mozzarella, sos roșii, ton, ceapă, măsline", d_en: "Cheese, mozzarella, tomato sauce, tuna, onion, olives", img: "img/pizza_al_tono.jpg", sizes: [ {s:"MEDIE/Medium 420g", p:"37 lei"} ]},
+            { ro: "PIZZA QUATTRO STAGIONI", d_ro: "Cașcaval, mozzarella, șuncă presată, salam, ciuperci, ardei kapia", d_en: "Cheese, mozzarella, pressed ham, salami, mushrooms, capsicum pepper", img: "img/pizza_quattro_stagioni.jpg", sizes: [ {s:"MEDIE/Medium 450g", p:"37 lei"} ]}
         ]
     },
     {
@@ -369,23 +369,6 @@ function closeCartModal(event) {
     document.getElementById('cart-modal').style.display = 'none';
 }
 
-let selectedPaymentMethod = 'cash';
-
-function selectPayment(method) {
-    selectedPaymentMethod = method;
-    const options = document.querySelectorAll('.payment-option');
-    options.forEach(opt => {
-        const radio = opt.querySelector('input');
-        if (radio.value === method) {
-            opt.classList.add('active');
-            radio.checked = true;
-        } else {
-            opt.classList.remove('active');
-            radio.checked = false;
-        }
-    });
-}
-
 function confirmOrder() {
     let message = currentLang === 'ro' ? "Bună ziua! Aș dori să comand:\n\n" : "Hello! I would like to order:\n\n";
     let total = 0;
@@ -400,10 +383,7 @@ function confirmOrder() {
         total += item.qty * item.price;
     }
 
-    const paymentText = selectedPaymentMethod === 'cash' ? (currentLang === 'ro' ? "Cash 💵" : "Cash 💵") : (currentLang === 'ro' ? "Card 💳" : "Card 💳");
-    
     message += `\nTotal: ${total} lei`;
-    message += `\nMetodă de plată: ${paymentText}`;
     
     document.getElementById('cart-modal').style.display = 'none';
     window.open(`https://wa.me/40767233077?text=${encodeURIComponent(message)}`, '_blank');

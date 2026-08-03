@@ -55,23 +55,6 @@
                 Total: <strong id="cart-modal-total-val"></strong>
             </div>
 
-            <!-- Metoda de plata -->
-            <div class="payment-methods">
-                <p id="payment-title">Metodă de plată / Payment method:</p>
-                <div class="payment-options">
-                    <label class="payment-option active" onclick="selectPayment('cash')">
-                        <input type="radio" name="payment" value="cash" checked>
-                        <span class="payment-dot"></span>
-                        <span class="payment-text">Cash 💵</span>
-                    </label>
-                    <label class="payment-option" onclick="selectPayment('card')">
-                        <input type="radio" name="payment" value="card">
-                        <span class="payment-dot"></span>
-                        <span class="payment-text">Card 💳</span>
-                    </label>
-                </div>
-            </div>
-
             <div class="cart-modal-actions">
                 <button onclick="closeCartModal()" id="cart-modal-back">← Înapoi</button>
                 <button onclick="confirmOrder()" id="cart-modal-confirm">Confirmă pe WhatsApp 💬</button>
