@@ -2,7 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen)
 ![Language](https://img.shields.io/badge/Language-RO_%7C_EN-blue)
-![Platform](https://img.shields.io/badge/Platform-Netlify-00C7B7)
+![Platform](https://img.shields.io/badge/Platform-GitHub_Pages-222)
 
 A modern, responsive, and bilingual digital menu for **Bunătățile Casei**, a catering business located in Comarnic, Romania. This site provides an easy way for customers to browse traditional and bio dishes, view daily specials, and place orders directly.
 
