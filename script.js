@@ -23,7 +23,6 @@ const menuData = [
             { ro: "ȘNIȚEL DE PORC PARIZIAN", en: "Parisian Pork Schnitzel", w: "180g", p: "47 lei", img: "img/snitel_porc_parizian.jpg" },
             { ro: "ȘNIȚEL ÎN CRUSTĂ DE PESMET CU CIUPERCI ȘI SOS DE SMÂNTÂNĂ", en: "Schnitzel in breadcrumb crust with mushrooms and sour cream sauce", w: "300g", p: "52 lei", d_ro: "Piept de pui, ou, făină, pesmet, ciuperci, smântână", d_en: "Chicken breast, egg, flour, breadcrumbs, mushrooms, sour cream", img: "img/snitel_crusta_pesmet.jpg" },
             { ro: "ȘNIȚEL PALERMO", en: "Palermo schnitzel", w: "200g", p: "53 lei", d_ro: "Piept pui, cașcaval, ou", d_en: "Chicken breast, cheese, egg", img: "img/snitel_palermo.jpg" },
-            { ro: "ȘNIȚEL A LA TOMATEN", en: "A la Tomaten schnitzel", w: "280g", p: "84 lei", d_ro: "Mușchi vită, roșii, busuioc, ulei măsline, ou, făină, pesmet", d_en: "Beef tenderloin, tomatoes, basil, olive oil, egg, flour, breadcrumbs", img: "img/snitel_tomaten.jpg" }
         ]
     },
     {
@@ -32,7 +31,6 @@ const menuData = [
             { ro: "COTLET DE PORC LA GRĂTAR", en: "Grilled pork chop", w: "180g", p: "47 lei", img: "img/cotlet_porc_gratar.jpg" },
             { ro: "MUȘCHI DE PORC LA GRĂTAR", en: "Grilled pork loin", w: "180g", p: "50 lei", img: "img/muschi_porc_gratar.jpg" },
             { ro: "CÂRNAȚI LA GRĂTAR", en: "Grilled sausages", w: "200g", p: "47 lei", img: "img/carnati_gratar.jpg" },
-            { ro: "MUȘCHI DE VITĂ LA GRĂTAR", en: "Grilled beef tenderloin", w: "180g", p: "74 lei", img: "img/muschi_vita_gratar.jpg" },
             { ro: "MITITEI CU MUȘTAR", en: "Grilled minced meat rolls with mustard", w: "100g", p: "6 lei/buc", img: "img/mititei_mustar.jpg" },
             { ro: "PULPE DE PUI DEZOSATE LA GRĂTAR", en: "Grilled boneless chicken legs", w: "180g", p: "47 lei", img: "img/pulpe_pui_gratar.jpg" },
             { ro: "PIEPT DE PUI LA GRĂTAR", en: "Grilled chicken breast", w: "200g", p: "47 lei", img: "img/piept_pui_gratar.jpg" },
@@ -53,9 +51,7 @@ const menuData = [
             { ro: "CARNE DE PORC LA GARNIȚĂ CU MĂMĂLIGUȚĂ ȘI MURĂTURI", en: "Pork garnished with polenta and pickles", w: "180/100/200g", p: "79 lei", img: "img/carne_porc_garnita.jpg" },
             { ro: "PASTRAMĂ DE OAIE CU MĂMĂLIGUȚĂ", en: "Mutton pastrami with polenta", w: "180/180g", p: "60 lei", img: "img/pastrama_oaie.jpg" },
             { ro: "GULAȘ DE VITĂ", en: "Beef goulash", w: "200/200/180/100g", p: "77 lei", d_ro: "Pulpă vită, găluști, mămăliguță", d_en: "Beef leg, dumplings, polenta", img: "img/gulas_vita.jpg" },
-            { ro: "MUȘCHI DE VITĂ STROGANOFF", en: "Beef Stroganoff", w: "180/150g", p: "77 lei", d_ro: "Mușchi vită, sos brun, smântână, ciuperci", d_en: "Beef tenderloin, brown sauce, sour cream, mushrooms", img: "img/muschi_vita_stroganoff.jpg" },
             { ro: "CORDON BLEU", en: "Pork, ham, cheese", w: "", p: "56 lei", d_ro: "Mușchi de porc, șuncă, cașcaval", img: "img/cordon_bleu.jpg" },
-            { ro: "CIOCĂNELE LA CUPTOR CU CARTOFI SOTE", en: "Baked ham with sauteed potatoes", w: "180/200g", p: "60 lei", img: "img/ciocanele_cuptor.jpg" },
             { ro: "PIEPT DE PUI CU SOS GORGONZOLA", en: "Chicken breast with gorgonzola sauce", w: "180/150g", p: "63 lei", img: "img/piept_pui_gorgonzola.jpg" },
             { ro: "ESCALOP DE PUI CU CIUPERCI", en: "Chicken escalope with mushrooms", w: "180/100/50g", p: "47 lei", img: "img/escalop_pui.jpg" },
             { ro: "CAȘCAVAL PANE", en: "Breaded cheese", w: "200g", p: "42 lei", img: "img/cascaval_pane.jpg" },
