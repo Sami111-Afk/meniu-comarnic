@@ -31,7 +31,7 @@ const menuData = [
             { ro: "COTLET DE PORC LA GRĂTAR", en: "Grilled pork chop", w: "180g", p: "47 lei", img: "img/cotlet_porc_gratar.jpg" },
             { ro: "MUȘCHI DE PORC LA GRĂTAR", en: "Grilled pork loin", w: "180g", p: "50 lei", img: "img/muschi_porc_gratar.jpg" },
             { ro: "CÂRNAȚI LA GRĂTAR", en: "Grilled sausages", w: "200g", p: "47 lei", img: "img/carnati_gratar.jpg" },
-            { ro: "MITITEI CU MUȘTAR", en: "Grilled minced meat rolls with mustard", w: "100g", p: "6 lei/buc", img: "img/mititei_mustar.jpg" },
+            { ro: "MITITEI CU MUȘTAR", en: "Grilled minced meat rolls with mustard", w: "100g", p: "8 lei/buc", img: "img/mititei_mustar.jpg" },
             { ro: "PULPE DE PUI DEZOSATE LA GRĂTAR", en: "Grilled boneless chicken legs", w: "180g", p: "47 lei", img: "img/pulpe_pui_gratar.jpg" },
             { ro: "PIEPT DE PUI LA GRĂTAR", en: "Grilled chicken breast", w: "200g", p: "47 lei", img: "img/piept_pui_gratar.jpg" },
             { ro: "CEAFĂ DE PORC LA GRĂTAR", en: "Grilled pork neck", w: "180g", p: "49 lei", img: "img/ceafa_porc_gratar.jpg" }
